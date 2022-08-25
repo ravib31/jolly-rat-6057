@@ -83,6 +83,7 @@
             justify-content: center;
             border: 1px solid orange;
             background-color: rgb(113, 36, 36);
+            margin-bottom: 10px;
 
         }
 
@@ -92,7 +93,7 @@
             height: 40px;
             border: 1px solid blue;
             text-align: center;
-            padding-top: 3px;
+            padding-top: 7px;
             justify-content: space-around;
 
 
@@ -125,10 +126,23 @@
         a:hover {
             color: yellow;
         }
+        #four{
+            width: 750px;
+            height: 130px;
+            margin: auto;
+            border: 1px solid brown;
+            text-align: center;
+        }
+        #four>div{
+            width: 750px;
+            height: 120px;
+            border: 1px solid blue;  
+        }
         .container{
             display: grid;
-            grid-template-columns: repeat(12,1fr);
+            grid-template-columns: repeat(13,1fr);
             gap: 10px 10px;
+            border: 5px solid yellow;
         }
         .news{
             border: 1px solid blue;
@@ -136,44 +150,62 @@
             box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
         }
         .d1{
-            grid-area: 1/1/6/3;
+            grid-area: 1/1/5/8;
         }
         .d2{
-            grid-area: 6/1/9/2;
+            grid-area: 1/8/2/10;
         }
         .d3{
-            grid-area: 9/2/13/3;
+            grid-area: 1/10/5/14;
         }
         .d4{
-            grid-area: 1/3/6/6;
+            grid-area: 2/8/4/10;
         }
         .d5{
-            grid-area: 6/2/9/3;
+            grid-area: 5/1/8/8;
         }
         .d6{
-            grid-area: 9/2/13/3;
+            grid-area: 4/8/6/10;
         }
         .d7{
-            grid-area: 1/9/3/12;
+            grid-area: 5/10/7/12;
         }
         .d8{
-            grid-area: 3/9/6/12;
+            grid-area: 5/12/7/14;
         }
         .d9{
-            grid-area: 6/1/9/3;
+            grid-area: 6/8/8/10;
         }
-        .d1{
-            grid-area: 1/1/10/3;
+        .d10{
+            grid-area: 8/1/12/4;
         }
-        .d1{
-            grid-area: 1/1/10/3;
+        .d11{
+            grid-area: 8/4/12/8;
         }
-        .d1{
-            grid-area: 1/1/10/3;
+        .d12{
+            grid-area: 8/8/10/10;
         }
-        .d1{
-            grid-area: 1/1/10/3;
+        .d13{
+            grid-area: 8/10/10/12;
         }
+        .d14{
+            grid-area: 10/7/14/12;
+        }
+        .d15{
+            grid-area: 1/12/4/14;
+        }
+        .d16{
+            grid-area: 4/12/8/14;
+        }
+        .d17{
+            grid-area: 8/12/10/14;
+        }
+        .d18{
+            grid-area: 10/12/14/14;
+        }
+
+       
+
 
     </style>
 </head>
@@ -320,6 +352,16 @@
             <i class="fa-solid fa-user"></i>
         </div>
     </div>
+    <div id="four">
+       
+            <h4>ADVERTISEMENT</h4>
+       
+        <div>
+            <a href="https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjst0wAD5LC02mE_1Ka7WT2YIOHHhtQTy8Wkz2D08_7Ug_Dg2KK44iH1PLUsScU-fviRt0r2z3UTZuAtDpB93HhX1476WRd5HVzmKJKut8-YKLKQ__gx7O815n1bVhsmUUj4Y6GHWB9Zh1GtKM5NeeKxZ7t3kthf9V9PxLym4TuL0XexrgG_CAdee6S6bGDBMpDA5YIDKJBrJ_rWK81PdT8mAFS21xD9rTct40c4RWsFbHVk6d3Kl1pYWlki9in23IgPjrUCllnsJM2jM8Ds7yxqCJ6f1zfVGrPik2WZQzECgKXUhQEvn2mkVFv5BjROkdPmZiDDe_0Q1wZcPHxxzAH7cnsfI5Q&sai=AMfl-YQFOBUE_p9SZOL_CpuisegQfuzCVeBZbuwg16_YyneObtni1aWbZCE77J_XZoKgJW9wOY86JNzi5QInaGXEZfX80lOR-RSkeT_xgfnmVkC4Zdy9M5zgQaETn5reWyPeZhcKemMH6xPkZRuJflrJnQ&sig=Cg0ArKJSzFHLGBwud2-F&fbs_aeid=[gw_fbsaeid]&adurl=http://www.amity.edu/webcampaign/default.asp%3Fid%3DIndTday02072022B&nm=21&nx=427&ny=-23&mb=2">
+                <img src="https://tpc.googlesyndication.com/simgad/4067651655008546901" alt="HTML tutorial" >
+              </a>
+        </div>
+    </div>
     <div class="container">
         <div class="news d1">1</div>
         <div class="news d2">2</div>
@@ -334,6 +376,12 @@
         <div class="news d11">11</div>
         <div class="news d12">12</div>
         <div class="news d13">13</div>
+        <div class="news d14">14</div>
+        <div class="news d15">15</div>
+        <div class="news d16">16</div>
+        <div class="news d17">17</div>
+        <div class="news d18">18</div>
+      
     </div>
 </body>
 
