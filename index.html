@@ -12,7 +12,7 @@
             margin: 0px;
             padding: 0px;
             box-sizing: border-box;
-
+            color: black;
         }
 
         #first {
@@ -123,90 +123,524 @@
             color: yellow;
         }
 
-        a:hover {
+        .fa-circle-chevron-left {
+            font-size: 20px;
+            color: black;
+        }
+
+        .fa-circle-chevron-right {
+            font-size: 20px;
+            color: black;
+        }
+
+        #third a:hover {
             color: yellow;
         }
-        #four{
+
+        #four {
             width: 750px;
             height: 130px;
             margin: auto;
             border: 1px solid brown;
             text-align: center;
         }
-        #four>div{
+
+        #four>div {
             width: 750px;
             height: 120px;
-            border: 1px solid blue;  
+            border: 1px solid blue;
         }
-        .container{
+
+        .container {
             display: grid;
-            grid-template-columns: repeat(13,1fr);
+            margin: auto;
+            width: 1300px;
+            height: 970px;
+            grid-template-columns: repeat(13, 1fr);
+
             gap: 10px 10px;
             border: 5px solid yellow;
         }
-        .news{
+
+        .news {
             border: 1px solid blue;
-            height: 300px;
             box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
         }
-        .d1{
+
+        .d1 {
             grid-area: 1/1/5/8;
         }
-        .d2{
+
+        .d1>div>a>img {
+            width: 100%;
+            height: 50%;
+        }
+
+        .d2 {
             grid-area: 1/8/2/10;
         }
-        .d3{
+
+        .d3 {
             grid-area: 1/10/5/14;
         }
-        .d4{
+
+        .d3>div>a>img {
+            width: 100%;
+            height: 50%;
+        }
+
+        .d4 {
             grid-area: 2/8/4/10;
         }
-        .d5{
+
+        .d5 {
             grid-area: 5/1/8/8;
         }
-        .d6{
+
+        .d6 {
             grid-area: 4/8/6/10;
         }
-        .d7{
+
+        .d7 {
             grid-area: 5/10/7/12;
         }
-        .d8{
+
+        .d8 {
             grid-area: 5/12/7/14;
+            padding-left: 120px;
         }
-        .d9{
+
+        .d9 {
             grid-area: 6/8/8/10;
         }
-        .d10{
+
+        .d10 {
             grid-area: 8/1/12/4;
         }
-        .d11{
+
+        .d10>a>img {
+            width: 100%;
+            height: 80%;
+        }
+
+        .d11 {
             grid-area: 8/4/12/8;
         }
-        .d12{
+
+        .d11>a>img {
+            width: 100%;
+            height: 80%;
+        }
+
+        .d12 {
             grid-area: 8/8/10/10;
         }
-        .d13{
-            grid-area: 8/10/10/12;
-        }
-        .d14{
-            grid-area: 10/7/14/12;
-        }
-        .d15{
-            grid-area: 1/12/4/14;
-        }
-        .d16{
-            grid-area: 4/12/8/14;
-        }
-        .d17{
-            grid-area: 8/12/10/14;
-        }
-        .d18{
-            grid-area: 10/12/14/14;
+
+        .d13 {
+            grid-area: 10/8/12/10;
         }
 
-       
+        .d14 {
+            grid-area: 7/10/12/14;
+            text-align: center;
+        }
 
 
+        .d15 {
+            grid-area: 12/1/14/4;
+        }
+
+        .d16 {
+            grid-area: 12/4/14/8;
+        }
+
+        .d17 {
+            grid-area: 12/8/14/10;
+        }
+
+        .d18 {
+            grid-area: 12/10/14/14;
+        }
+
+        .d3 {
+            text-align: center;
+        }
+
+        .container a:hover {
+            color: blue;
+
+        }
+
+        .d14>div>img {
+            border-radius: 100px;
+            margin-left: 20px;
+            width: 40%;
+            height: 50%;
+
+        }
+
+
+        .d18 h3 {
+            text-align: center;
+            font-style: italic;
+        }
+
+        #five {
+            width: 1650px;
+            height: 600px;
+
+            margin: auto;
+            padding-top: 150px;
+
+        }
+
+        #top {
+            width: 1600px;
+            height: 60px;
+
+            margin: auto;
+            display: flex;
+
+
+        }
+
+        #top>div {
+            width: 500px;
+            height: 40px;
+
+            margin: auto;
+
+        }
+
+        #top>div:nth-child(1) {
+            text-align: left;
+        }
+
+        #top>div:nth-child(2) {
+            text-align: right;
+        }
+
+        #top>div:nth-child(3) {
+            padding-left: 450px;
+        }
+
+        #bottom {
+            width: 1600px;
+            height: 400px;
+
+            margin: auto;
+            display: flex;
+            justify-content: space-around;
+            padding-top: 0px;
+        }
+
+        #bottom>div {
+            width: 1600px;
+            height: 300px;
+
+            margin: auto;
+        }
+
+        #right {
+            width: 850px;
+            height: 250px;
+            display: flex;
+            box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+
+        }
+
+        #right>div {
+            width: 170px;
+            height: 300px;
+
+            box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        }
+
+        #right>div>div>a>img {
+            width: 160px;
+            height: 200px;
+        }
+
+        #left {
+            width: 650px;
+            height: 200px;
+            display: flex;
+
+            box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+
+        }
+
+        #left>div {
+            width: 350px;
+            height: 300px;
+
+            box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        }
+
+        #left>div>div>div>a>img {
+            width: 350px;
+            height: 200px;
+        }
+
+        .six {
+            display: grid;
+            margin: auto;
+            width: 1610px;
+            height: 900px;
+            grid-template-columns: repeat(14, 1fr);
+            border: 1px solid red;
+            gap: 10px 10px;
+
+        }
+
+
+
+        .e1 {
+            grid-area: 1/1/2/5;
+        }
+
+        .e2 {
+            grid-area: 1/5/2/10;
+        }
+
+        .e3 {
+            grid-area: 1/10/2/15;
+        }
+
+        .e4 {
+            grid-area: 2/1/6/5;
+        }
+
+        .e5 {
+            grid-area: 2/5/6/10;
+        }
+
+        .e6 {
+            grid-area: 2/10/6/15;
+        }
+
+        .e7 {
+            grid-area: 6/1/9/5;
+        }
+
+        .e8 {
+            grid-area: 6/5/9/10;
+        }
+
+        .e9 {
+            grid-area: 6/10/9/15;
+        }
+
+        .e10 {
+            grid-area: 9/1/11/5;
+        }
+
+        .e11 {
+            grid-area: 9/5/11/10;
+        }
+
+        .e12 {
+            grid-area: 9/10/11/15;
+        }
+
+        .e13 {
+            grid-area: 11/1/13/5;
+        }
+
+        .e14 {
+            grid-area: 11/5/13/10;
+        }
+
+        .e15 {
+            grid-area: 11/10/13/15;
+        }
+
+        .e16 {
+            grid-area: 13/1/14/5;
+        }
+
+        .e17 {
+            grid-area: 13/5/14/10;
+        }
+
+        .e18 {
+            grid-area: 13/10/15/15;
+        }
+
+        .six>div {
+            display: flex;
+
+        }
+
+        .six>div>a>img {
+            width: 450px;
+            height: 250px;
+
+        }
+
+        .e5,
+        .e6 {
+            padding-left: 70px;
+        }
+
+        .e16,
+        .e17,
+        .e18 {
+            padding: 50px 0px 0px 230px;
+
+        }
+
+        .e2,
+        .e3 {
+            padding: 50px 0px 0px 70px;
+        }
+
+        .e1 {
+            padding: 50px 0px 0px 0px;
+        }
+
+        .fa-angle-right {
+            font-size: 20px;
+            color: black;
+
+        }
+        .e8,.e9,.e11,.e12,.e14,.e15{
+            padding: 0px 0px 0px 30px;
+        }
+
+        .seven {
+            display: grid;
+            margin: auto;
+            width: 1610px;
+            height: 900px;
+            grid-template-columns: repeat(14, 1fr);
+            border: 1px solid orange;
+            gap: 10px 10px;
+
+        }
+
+        .f1 {
+            grid-area: 1/1/2/5;
+        }
+
+        .f2 {
+            grid-area: 1/5/2/10;
+        }
+
+        .f3 {
+            grid-area: 1/10/2/15;
+        }
+
+        .f4 {
+            grid-area: 2/1/6/5;
+        }
+
+        .f5 {
+            grid-area: 2/5/6/10;
+        }
+
+        .f6 {
+            grid-area: 2/10/6/15;
+        }
+
+        .f7 {
+            grid-area: 6/1/9/5;
+        }
+
+        .f8 {
+            grid-area: 6/5/9/10;
+        }
+
+        .f9 {
+            grid-area: 6/10/9/15;
+        }
+
+        .f10 {
+            grid-area: 9/1/11/5;
+        }
+
+        .f11 {
+            grid-area: 9/5/11/10;
+        }
+
+        .f12 {
+            grid-area: 9/10/11/15;
+        }
+
+        .f13 {
+            grid-area: 11/1/13/5;
+        }
+
+        .f14 {
+            grid-area: 11/5/13/10;
+        }
+
+        .f15 {
+            grid-area: 11/10/13/15;
+        }
+
+        .f16 {
+            grid-area: 13/1/14/5;
+        }
+
+        .f17 {
+            grid-area: 13/5/14/10;
+        }
+
+        .f18 {
+            grid-area: 13/10/14/15;
+        }
+
+        .seven>div {
+            display: flex;
+           
+
+        }
+
+        .seven>div>a>img {
+            width: 450px;
+            height: 250px;
+
+        }
+
+        .f5,
+        .f6 {
+            padding-left: 70px;
+        }
+        .f8,.f9,.f11,.f12,.f14,.f15{
+            padding: 0px 0px 0px 30px;
+        }
+        .f16{
+            padding: 50px 0px 0px 200px;
+        }
+        .f17,
+        .f18 {
+            padding: 50px 0px 0px 230px;
+
+        }
+
+        .f2,
+        .f3 {
+            padding: 50px 0px 0px 70px;
+        }
+
+        .f1 {
+            padding: 50px 0px 0px 0px;
+        }
+
+        .fa-angle-right {
+            font-size: 20px;
+            color: black;
+
+        }
+
+        .fa-angle-right {
+            font-size: 20px;
+            color: black;
+
+        }
     </style>
 </head>
 
@@ -340,48 +774,425 @@
             <i class="fa-solid fa-tv"></i>
         </div>
 
-        <div> 
+        <div>
             <i class="fa-solid fa-share-nodes"></i>
         </div>
 
         <div>
-             <i class="fa-solid fa-magnifying-glass"></i>
-            </div>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
 
         <div>
             <i class="fa-solid fa-user"></i>
         </div>
     </div>
     <div id="four">
-       
-            <h4>ADVERTISEMENT</h4>
-       
+
+        <h4>ADVERTISEMENT</h4>
+
         <div>
-            <a href="https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjst0wAD5LC02mE_1Ka7WT2YIOHHhtQTy8Wkz2D08_7Ug_Dg2KK44iH1PLUsScU-fviRt0r2z3UTZuAtDpB93HhX1476WRd5HVzmKJKut8-YKLKQ__gx7O815n1bVhsmUUj4Y6GHWB9Zh1GtKM5NeeKxZ7t3kthf9V9PxLym4TuL0XexrgG_CAdee6S6bGDBMpDA5YIDKJBrJ_rWK81PdT8mAFS21xD9rTct40c4RWsFbHVk6d3Kl1pYWlki9in23IgPjrUCllnsJM2jM8Ds7yxqCJ6f1zfVGrPik2WZQzECgKXUhQEvn2mkVFv5BjROkdPmZiDDe_0Q1wZcPHxxzAH7cnsfI5Q&sai=AMfl-YQFOBUE_p9SZOL_CpuisegQfuzCVeBZbuwg16_YyneObtni1aWbZCE77J_XZoKgJW9wOY86JNzi5QInaGXEZfX80lOR-RSkeT_xgfnmVkC4Zdy9M5zgQaETn5reWyPeZhcKemMH6xPkZRuJflrJnQ&sig=Cg0ArKJSzFHLGBwud2-F&fbs_aeid=[gw_fbsaeid]&adurl=http://www.amity.edu/webcampaign/default.asp%3Fid%3DIndTday02072022B&nm=21&nx=427&ny=-23&mb=2">
-                <img src="https://tpc.googlesyndication.com/simgad/4067651655008546901" alt="HTML tutorial" >
-              </a>
+            <a
+                href="https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjst0wAD5LC02mE_1Ka7WT2YIOHHhtQTy8Wkz2D08_7Ug_Dg2KK44iH1PLUsScU-fviRt0r2z3UTZuAtDpB93HhX1476WRd5HVzmKJKut8-YKLKQ__gx7O815n1bVhsmUUj4Y6GHWB9Zh1GtKM5NeeKxZ7t3kthf9V9PxLym4TuL0XexrgG_CAdee6S6bGDBMpDA5YIDKJBrJ_rWK81PdT8mAFS21xD9rTct40c4RWsFbHVk6d3Kl1pYWlki9in23IgPjrUCllnsJM2jM8Ds7yxqCJ6f1zfVGrPik2WZQzECgKXUhQEvn2mkVFv5BjROkdPmZiDDe_0Q1wZcPHxxzAH7cnsfI5Q&sai=AMfl-YQFOBUE_p9SZOL_CpuisegQfuzCVeBZbuwg16_YyneObtni1aWbZCE77J_XZoKgJW9wOY86JNzi5QInaGXEZfX80lOR-RSkeT_xgfnmVkC4Zdy9M5zgQaETn5reWyPeZhcKemMH6xPkZRuJflrJnQ&sig=Cg0ArKJSzFHLGBwud2-F&fbs_aeid=[gw_fbsaeid]&adurl=http://www.amity.edu/webcampaign/default.asp%3Fid%3DIndTday02072022B&nm=21&nx=427&ny=-23&mb=2">
+                <img src="https://tpc.googlesyndication.com/simgad/4067651655008546901" alt="HTML tutorial">
+            </a>
         </div>
     </div>
     <div class="container">
-        <div class="news d1">1</div>
-        <div class="news d2">2</div>
-        <div class="news d3">3</div>
-        <div class="news d4">4</div>
-        <div class="news d5">5</div>
-        <div class="news d6">6</div>
-        <div class="news d7">7</div>
-        <div class="news d8">8</div>
-        <div class="news d9">9</div>
-        <div class="news d10">10</div>
-        <div class="news d11">11</div>
-        <div class="news d12">12</div>
-        <div class="news d13">13</div>
-        <div class="news d14">14</div>
-        <div class="news d15">15</div>
-        <div class="news d16">16</div>
-        <div class="news d17">17</div>
-        <div class="news d18">18</div>
-      
+        <div class="news d1">
+            <div>
+                <a
+                    href="https://www.indiatoday.in/india/story/enforcement-directorate-initials-spelled-cash-bullets-1992073-2022-08-24">
+                    <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202208/Untitled-2_5.jpg?size=483:271"
+                        alt="HTML tutorial">
+                </a>
+            </div>
+        </div>
+        <div class="news d2">
+            <h2>TOP STORIES</h2>
+        </div>
+        <div class="news d3">
+            <h4>ADVERTISEMENT</h4>
+
+            <div>
+                <a
+                    href="https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjsu6Br0FSIAGZz_bcA389-YW6CXJZUAYfrXQxQRvNXW4vD1YrKVLoL9ZM8DdhOkCxFh6ndVSolMTQRaa5ys3QINAkaYryBfBkV5AuEyD1CW1b2xPZqruiDt9LAAZhEf1bCwAEpqrRRWvuNqgVzds5QEcIzbYdSQN-dc0WC3sUUyFOJTDruk2CVfQCETJ1PaBk8jDPUFRarvkUSt4kTJ3SRPB0wfFBJDa44tGLWvjixD84_WCDNwQtMSDU1Tk_ho0gEG8csMXsSNzlxpUQ9_NVNiXqtfIb9cxYzZ2bp1MrgY0ejT77bpdOi1HShH8iUOoiWI2Eta2iCaRL3Tg4V8kDUxw&sai=AMfl-YRYouQQGQb3VncJjqpmhmEQb8znvP4bQre-jBAMPYGlf6YYZXpKT6uv1Sh7lNrkTbemQnKjPqnJz6C_DZu0Cliz_Z3mkMImskzeTwik6Kn_JPeJxAbMIFQCafd0dnTrZ-SbeZy_7hlkJrhVVmrX3IawrEBh7Bg&sig=Cg0ArKJSzCKhHi9ndszD&fbs_aeid=[gw_fbsaeid]&adurl=http://www.amity.edu/webcampaign/default.asp%3Fid%3DIndTday02072022C&nm=6&nx=123&ny=-116&mb=2">
+                    <img src="https://tpc.googlesyndication.com/simgad/9989501401069356634" alt="HTML tutorial">
+                </a>
+            </div>
+
+        </div>
+        <div class="news d4"> <a
+                href="https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjsu6Br0FSIAGZz_bcA389-YW6CXJZUAYfrXQxQRvNXW4vD1YrKVLoL9ZM8DdhOkCxFh6ndVSolMTQRaa5ys3QINAkaYryBfBkV5AuEyD1CW1b2xPZqruiDt9LAAZhEf1bCwAEpqrRRWvuNqgVzds5QEcIzbYdSQN-dc0WC3sUUyFOJTDruk2CVfQCETJ1PaBk8jDPUFRarvkUSt4kTJ3SRPB0wfFBJDa44tGLWvjixD84_WCDNwQtMSDU1Tk_ho0gEG8csMXsSNzlxpUQ9_NVNiXqtfIb9cxYzZ2bp1MrgY0ejT77bpdOi1HShH8iUOoiWI2Eta2iCaRL3Tg4V8kDUxw&sai=AMfl-YRYouQQGQb3VncJjqpmhmEQb8znvP4bQre-jBAMPYGlf6YYZXpKT6uv1Sh7lNrkTbemQnKjPqnJz6C_DZu0Cliz_Z3mkMImskzeTwik6Kn_JPeJxAbMIFQCafd0dnTrZ-SbeZy_7hlkJrhVVmrX3IawrEBh7Bg&sig=Cg0ArKJSzCKhHi9ndszD&fbs_aeid=[gw_fbsaeid]&adurl=http://www.amity.edu/webcampaign/default.asp%3Fid%3DIndTday02072022C&nm=6&nx=123&ny=-116&mb=2">
+                <h3>Arrested LeT suspect Junaid was conspiring to attack BJP leaders’ rally, says ATS charge sheet </h3>
+            </a></div>
+        <div class="news d5">
+            <a
+                href="https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjsu6Br0FSIAGZz_bcA389-YW6CXJZUAYfrXQxQRvNXW4vD1YrKVLoL9ZM8DdhOkCxFh6ndVSolMTQRaa5ys3QINAkaYryBfBkV5AuEyD1CW1b2xPZqruiDt9LAAZhEf1bCwAEpqrRRWvuNqgVzds5QEcIzbYdSQN-dc0WC3sUUyFOJTDruk2CVfQCETJ1PaBk8jDPUFRarvkUSt4kTJ3SRPB0wfFBJDa44tGLWvjixD84_WCDNwQtMSDU1Tk_ho0gEG8csMXsSNzlxpUQ9_NVNiXqtfIb9cxYzZ2bp1MrgY0ejT77bpdOi1HShH8iUOoiWI2Eta2iCaRL3Tg4V8kDUxw&sai=AMfl-YRYouQQGQb3VncJjqpmhmEQb8znvP4bQre-jBAMPYGlf6YYZXpKT6uv1Sh7lNrkTbemQnKjPqnJz6C_DZu0Cliz_Z3mkMImskzeTwik6Kn_JPeJxAbMIFQCafd0dnTrZ-SbeZy_7hlkJrhVVmrX3IawrEBh7Bg&sig=Cg0ArKJSzCKhHi9ndszD&fbs_aeid=[gw_fbsaeid]&adurl=http://www.amity.edu/webcampaign/default.asp%3Fid%3DIndTday02072022C&nm=6&nx=123&ny=-116&mb=2">
+                <h1>Stacks of notes or scores of</br> bullets, ED never forgets to spell</br> its initials | In Pics
+                </h1>
+            </a>
+        </div>
+        <div class="news d6"><a
+                href="https://www.indiatoday.in/india/jharkhand/story/ak-47-jharkhand-cm-aide-ranchi-cops-1992136-2022-08-24">
+                <h3>AK-47s found at home of Jharkhand CM's aide belonged to Ranchi cops, say police </h3>
+            </a></div>
+        <div class="news d7">
+            <h2>OPINION</h2>
+        </div>
+        <div class="news d8">
+            <i class="fa-solid fa-circle-chevron-left"></i>
+            <i class="fa-solid fa-circle-chevron-right"></i>
+        </div>
+        <div class="news d9">
+            <a
+                href="https://www.indiatoday.in/law/story/supreme-court-to-review-money-laundering-verdict-tomorrow-1992141-2022-08-24">
+                <h3>Supreme Court to review money laundering verdict tomorrow </h3>
+            </a>
+        </div>
+        <div class="news d10">
+            <a
+                href="https://www.indiatoday.in/india/story/qutub-minar-delhi-tomar-king-claim-qutub-complex-asi-1992108-2022-08-24">
+                <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202208/qutubminar_1200x768.jpeg?size=237:133"
+                    alt="HTML tutorial">
+            </a>
+        </div>
+        <div class="news d11">
+            <a
+                href="https://www.indiatoday.in/sports/cricket/story/vvs-laxman-named-india-s-interim-head-coach-for-asia-cup-after-rahul-dravid-tests-covid-19-positive-1992139-2022-08-24">
+                <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202208/VVS_Laxman_1200x768.jpeg?size=237:133"
+                    alt="HTML tutorial">
+            </a>
+        </div>
+        <div class="news d12"><a
+                href="https://www.indiatoday.in/india/story/bjp-trying-to-topple-delhi-government-aap-as-arvind-kejriwal-calls-mlas-meet-1992121-2022-08-24">
+                <h3>BJP trying to topple Delhi government: AAP as Arvind Kejriwal calls MLAs' meet </h3>
+            </a></div>
+        <div class="news d13"><a
+                href="https://www.indiatoday.in/cities/noida/story/supertech-twin-tower-demolition-timeline-of-events-1992112-2022-08-24">
+                <h3>Supertech twin towers demolition: Here's a timeline of events </h3>
+            </a></div>
+        <div class="news d14">
+            <div>
+
+
+                <img
+                    src="https://akm-img-a-in.tosshub.com/indiatoday/styles/user_picture/public/images/reporter/202010/darpan_x.jpeg?LvFoTdyhubC2adxkBObIAZ_rHaBpfwnR">
+
+            </div>
+            <div>
+                <a
+                    href="https://www.indiatoday.in/cities/noida/story/supertech-twin-tower-demolition-timeline-of-events-1992112-2022-08-24">
+                    <h3>How we turned natural</br> floods into monsoon </br>mayhem by squeezing our... </h3>
+                </a>
+            </div>
+        </div>
+        <div class="news d15">
+            <a
+                href="https://www.indiatoday.in/india/story/qutub-minar-delhi-tomar-king-claim-qutub-complex-asi-1992108-2022-08-24">
+                <h3>'Descendant' of Delhi's</br> Tomar king claims</br> ownership of Qutb Minar </h3>
+            </a>
+        </div>
+        <div class="news d16">
+            <a
+                href="https://www.indiatoday.in/india/story/qutub-minar-delhi-tomar-king-claim-qutub-complex-asi-1992108-2022-08-24">
+                <h3>'VVS Laxman named India’s</br> interim head coach for</br> Asia Cup</h3>
+            </a>
+        </div>
+        <div class="news d17">
+            <a
+                href="https://www.indiatoday.in/cities/noida/story/supertech-twin-tower-demolition-timeline-of-events-1992112-2022-08-24">
+                <h4>IMPACT FEATURE</h4>
+                <h3>After the Olympics LPU students and alumni won 4 medals for India at Birmingham Commonwealth Games
+                    2022.</h3>
+            </a>
+        </div>
+        <div class="news d18">
+            <h3>by Darpan Singh</h3>
+        </div>
+
+    </div>
+    <div id="five">
+        <div id="top">
+            <div> <a href="https://www.indiatoday.in/visualstories/">
+                    <h3>VISUAL STORIES</h3>
+                </a></div>
+            <div>
+                <h3>TODAY SPECIAL</h3>
+            </div>
+            <div>
+                <i class="fa-solid fa-circle-chevron-left"></i>
+
+                <i class="fa-solid fa-circle-chevron-right"></i>
+            </div>
+        </div>
+        <div id="bottom">
+            <div id="right">
+                <div>
+                    <div> <a
+                            href="https://www.indiatoday.in/visualstories/food/how-to-make-quinoa-salad-at-home-9853-25-08-2022">
+                            <img src="https://akm-img-a-in.tosshub.com/sites/visualstory/stories/2022_08/story_9853/assets/15.jpeg?time=1661430540&size=125:168"
+                                alt="HTML tutorial">
+                        </a></div>
+                    <div><a
+                            href="https://www.indiatoday.in/visualstories/food/how-to-make-quinoa-salad-at-home-9853-25-08-2022">
+                            <h3>How To Make</br> Quinoa Salad At</br> Home?</h3>
+                        </a></div>
+                </div>
+                <div>
+                    <div> <a
+                            href="https://www.indiatoday.in/visualstories/food/perfect-cheesecake-recipe-9852-25-08-2022">
+                            <img src="https://akm-img-a-in.tosshub.com/sites/visualstory/2022/08/9852imagekicker_img_cover_20220825175652.jpg?size=125:168"
+                                alt="HTML tutorial">
+                        </a></div>
+                    <div>
+                        <a
+                            href="https://www.indiatoday.in/visualstories/food/perfect-cheesecake-recipe-9852-25-08-2022">
+                            <h3>Perfect</br> Cheesecake</br> Recipe</h3>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <div> <a
+                            href="https://www.indiatoday.in/visualstories/entertainment/hot-and-glamorous-esha-gupta-9851-25-08-2022">
+                            <img src="https://akm-img-a-in.tosshub.com/sites/visualstory/stories/2022_08/story_9851/assets/17.jpeg?time=1661429341&size=125:168"
+                                alt="HTML tutorial">
+                        </a></div>
+                    <div>
+                        <a
+                            href="https://www.indiatoday.in/visualstories/entertainment/hot-and-glamorous-esha-gupta-9851-25-08-2022">
+                            <h3>Hot and</br>Glamorous,Esha</br> Gupta</h3>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <div> <a
+                            href="https://www.indiatoday.in/visualstories/sports/how-hong-kong-qualified-for-asia-cup-9848-25-08-2022">
+                            <img src="https://akm-img-a-in.tosshub.com/sites/visualstory/stories/2022_08/story_9848/assets/14.jpeg?time=1661426916&size=125:168"
+                                alt="HTML tutorial">
+                        </a></div>
+                    <div>
+                        <a
+                            href="https://www.indiatoday.in/visualstories/sports/how-hong-kong-qualified-for-asia-cup-9848-25-08-2022">
+                            <h3>How Hong Kong</br>qualified for asia</br> Cup</h3>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <div> <a
+                            href="https://www.indiatoday.in/visualstories/sports/asia-cup-the-most-successful-batters-9847-25-08-2022">
+                            <img src="https://akm-img-a-in.tosshub.com/sites/visualstory/stories/2022_08/story_9847/assets/14.jpeg?time=1661426685&size=125:168"
+                                alt="HTML tutorial">
+                        </a></div>
+                    <div>
+                        <a
+                            href="https://www.indiatoday.in/visualstories/sports/asia-cup-the-most-successful-batters-9847-25-08-2022">
+                            <h3>Asia Cup:The</br>Most successful</br>batters</h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="left">
+                <div>
+                    <div>
+                        <div> <a
+                                href="https://www.indiatoday.in/visualstories/sports/asia-cup-the-most-successful-batters-9847-25-08-2022">
+                                <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202208/BrahMos_missile_1200x768.jpeg?size=647:363"
+                                    alt="HTML tutorial">
+                            </a></div>
+                        <div>
+                            <a
+                                href="https://www.indiatoday.in/india/story/brahmos-missile-misfire-service-iaf-officers-terminated-1991642-2022-08-23">
+                                <h3>3 IAF officers sacked over</br> missile misfire into </br>Pakistan</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <div> <a
+                                href="https://www.indiatoday.in/visualstories/sports/asia-cup-the-most-successful-batters-9847-25-08-2022">
+                                <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202208/Twin_Towers_1_1200x768.jpeg?size=647:363"
+                                    alt="HTML tutorial">
+                            </a></div>
+                        <div>
+                            <a
+                                href="https://www.indiatoday.in/cities/noida/story/supertech-twin-towers-demolition-residents-security-in-place-stage-set-mega-implosion-1991717-2022-08-23">
+                                <h3>Residents pack up,</br> security in place: Stage set</br> for Noida twin towers
+                                    </br>demolition</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="six">
+        <div class="cup e1"><a href="https://www.indiatoday.in/movies">
+                <h2>MOVIES</h2>
+            </a></div>
+        <div class="cup e2"><a href="https://www.indiatoday.in/taxonomy/term/1206688">
+                <h2>TECHNOLOGY</h2>
+            </a></div>
+        <div class="cup e3"><a
+                href="https://www.indiatoday.in/visualstories/food/how-to-make-quinoa-salad-at-home-9853-25-08-2022">
+                <h2>SPORTS</h2>
+            </a></div>
+        <div class="cup e4"><a
+                href="https://www.indiatoday.in/movies/celebrities/story/amitabh-bachchan-s-mumbai-home-sanitised-by-bmc-after-actor-tests-covid-positive-1992118-2022-08-24">
+                <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202208/bmc_amitabh.jpg?size=370:208"
+                    alt="HTML tutorial">
+            </a></div>
+        <div class="cup e5"><a
+                href="https://www.indiatoday.in/technology/news/story/new-us-bill-to-ask-google-and-facebook-to-pay-news-publishers-support-journalism-1992153-2022-08-24">
+                <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202208/Google_logo_7.jpg?size=370:208"
+                    alt="HTML tutorial">
+            </a></div>
+        <div class="cup e6"><a
+                href="https://www.indiatoday.in/sports/cricket/story/virat-kohli-babar-azam-greet-each-other-as-team-india-starts-preparations-for-asia-cup-2022-1992160-2022-08-24">
+                <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202208/Virat_Kohli_Babar_Azam_1200x768.jpeg?size=370:208"
+                    alt="HTML tutorial">
+            </a></div>
+        <div class="cup e7"><a
+                href="https://www.indiatoday.in/movies/celebrities/story/amitabh-bachchan-s-mumbai-home-sanitised-by-bmc-after-actor-tests-covid-positive-1992118-2022-08-24">
+                <h1>Amitabh Bachchan's Mumbai home sanitised by BMC after actor tests Covid positive</h1>
+            </a></div>
+        <div class="cup e8"><a
+                href="https://www.indiatoday.in/visualstories/food/how-to-make-quinoa-salad-at-home-9853-25-08-2022">
+                <h1>New US bill to ask Google and Facebook to pay news publishers, support journalism</h1>
+            </a></div>
+        <div class="cup e9"><a
+                href="https://www.indiatoday.in/visualstories/food/how-to-make-quinoa-salad-at-home-9853-25-08-2022">
+                <h1>Kohli, Babar greet each other as Team India starts preparations for Asia Cup 2022</h1>
+            </a></div>
+        <div class="cup e10"><a
+                href="https://www.indiatoday.in/visualstories/food/how-to-make-quinoa-salad-at-home-9853-25-08-2022">
+                <h3>Ranbir joins Nagarjuna, Rajamouli for tasty South Indian meal at Brahmastra promotion</h3>
+            </a></div>
+        <div class="cup e11"><a
+                href="https://www.indiatoday.in/visualstories/food/how-to-make-quinoa-salad-at-home-9853-25-08-2022">
+                <h3>Jio 5G, JioPhone 5G expected to launch on August 29</h3>
+            </a></div>
+        <div class="cup e12"><a
+                href="https://www.indiatoday.in/visualstories/food/how-to-make-quinoa-salad-at-home-9853-25-08-2022">
+                <h3>VVS Laxman named India’s interim head coach for Asia Cup</h3>
+            </a></div>
+        <div class="cup e13"><a
+                href="https://www.indiatoday.in/visualstories/food/how-to-make-quinoa-salad-at-home-9853-25-08-2022">
+                <h3>Peek into Baby K Ahuja's wardrobe proves he's a fashionista like mommy Sonam Kapoor</h3>
+            </a></div>
+        <div class="cup e14"><a
+                href="https://www.indiatoday.in/visualstories/food/how-to-make-quinoa-salad-at-home-9853-25-08-2022">
+                <h3>5 important things to keep in mind while making UPI payments</h3>
+            </a></div>
+        <div class="cup e15"><a
+                href="https://www.indiatoday.in/visualstories/food/how-to-make-quinoa-salad-at-home-9853-25-08-2022">
+                <h3>Asia Cup : Watch Rashid Khan and Shaheen Shah Afridi exchange greetings in Dubai</h3>
+            </a></div>
+        <div class="cup e16">
+            <div><a href="https://www.indiatoday.in/movies">
+                    <h3>
+                        MORE FROM MOVIES </h3>
+                </a></div>
+            <div><i class="fa-solid fa-angle-right"></i></div>
+        </div>
+        <div class="cup e17">
+            <div><a href="https://www.indiatoday.in/taxonomy/term/1206688">
+                    <h3>
+                        MORE FROM TECHNOLOGY </h3>
+                </a></div>
+            <div><i class="fa-solid fa-angle-right"></i></div>
+        </div>
+        <div class="cup e18">
+            <div><a href="https://www.indiatoday.in/sports">
+                    <h3>MORE FROM SPORTS </h3>
+                </a></div>
+            <div><i class="fa-solid fa-angle-right"></i></div>
+        </div>
+
+    </div>
+    <div class="seven">
+        <div class="mug f1"><a href="https://www.indiatoday.in/movies">
+                <h2>LIFESTYLE</h2>
+            </a></div>
+        <div class="mug f2"><a href="https://www.indiatoday.in/taxonomy/term/1206688">
+                <h2>TRENDING</h2>
+            </a></div>
+        <div class="mug f3"><a
+                href="https://www.indiatoday.in/visualstories/food/how-to-make-quinoa-salad-at-home-9853-25-08-2022">
+                <h2>INDIA</h2>
+            </a></div>
+        <div class="mug f4"><a
+                href="https://www.indiatoday.in/movies/celebrities/story/amitabh-bachchan-s-mumbai-home-sanitised-by-bmc-after-actor-tests-covid-positive-1992118-2022-08-24">
+                <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202208/NCT127-2-baddies-.jpg?size=370:208"
+                    alt="HTML tutorial">
+            </a></div>
+        <div class="mug f5"><a
+                href="https://www.indiatoday.in/technology/news/story/new-us-bill-to-ask-google-and-facebook-to-pay-news-publishers-support-journalism-1992153-2022-08-24">
+                <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202208/BeFunky-collage_(29).jpg?size=370:208"
+                    alt="HTML tutorial">
+            </a></div>
+        <div class="mug f6"><a
+                href="https://www.indiatoday.in/sports/cricket/story/virat-kohli-babar-azam-greet-each-other-as-team-india-starts-preparations-for-asia-cup-2022-1992160-2022-08-24">
+                <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202208/rajnath-singh_1200x768.png?size=370:208"
+                    alt="HTML tutorial">
+            </a></div>
+        <div class="mug f7"><a
+                href="https://www.indiatoday.in/movies/celebrities/story/amitabh-bachchan-s-mumbai-home-sanitised-by-bmc-after-actor-tests-covid-positive-1992118-2022-08-24">
+                <h1>K-pop group NCT 127 teases comeback with 'NEO SEOUL' video. Watch</h1>
+            </a></div>
+        <div class="mug f8"><a
+                href="https://www.indiatoday.in/visualstories/food/how-to-make-quinoa-salad-at-home-9853-25-08-2022">
+                <h1>Coke Studio singer left homeless due to floods in Balochistan</h1>
+            </a></div>
+        <div class="mug f9"><a
+                href="https://www.indiatoday.in/visualstories/food/how-to-make-quinoa-salad-at-home-9853-25-08-2022">
+                <h1>India supports peaceful, secure and stable Afghanistan: Rajnath Singh</h1>
+            </a></div>
+        <div class="mug f10"><a
+                href="https://www.indiatoday.in/visualstories/food/how-to-make-quinoa-salad-at-home-9853-25-08-2022">
+                <h3>Hardik Pandya and Natasa Stankovic pose with their son in matching outfits</h3>
+            </a></div>
+        <div class="mug f11"><a
+                href="https://www.indiatoday.in/visualstories/food/how-to-make-quinoa-salad-at-home-9853-25-08-2022">
+                <h3>Japanese dancers groove to Kahin Aag Lage Lag Jaave. Viral video</h3>
+            </a></div>
+        <div class="mug f12"><a
+                href="https://www.indiatoday.in/visualstories/food/how-to-make-quinoa-salad-at-home-9853-25-08-2022">
+                <h3>Earthquake of 4.1-magnitude hits Jammu and Kashmir</h3>
+            </a></div>
+        <div class="mug f13"><a
+                href="https://www.indiatoday.in/visualstories/food/how-to-make-quinoa-salad-at-home-9853-25-08-2022">
+                <h3>Katrina Kaif swears by this super-easy avocado smoothie recipe</h3>
+            </a></div>
+        <div class="mug f14"><a
+                href="https://www.indiatoday.in/visualstories/food/how-to-make-quinoa-salad-at-home-9853-25-08-2022">
+                <h3>100-yr-old Australian woman 'gets arrested' as it was on her bucket list</h3>
+            </a></div>
+        <div class="mug f15"><a
+                href="https://www.indiatoday.in/visualstories/food/how-to-make-quinoa-salad-at-home-9853-25-08-2022">
+                <h3>Fined for traffic rule violation, lineman cuts off police station's electricity in UP/h3>
+            </a></div>
+        <div class="mug f16">
+            <div><a href="https://www.indiatoday.in/movies">
+                    <h3>
+                        MORE FROM LIFESTYLE </h3>
+                </a></div>
+            <div><i class="fa-solid fa-angle-right"></i></div>
+        </div>
+        <div class="mug f17">
+            <div><a href="https://www.indiatoday.in/taxonomy/term/1206688">
+                    <h3>
+                        MORE FROM TRENDING NEWS </h3>
+                </a></div>
+            <div><i class="fa-solid fa-angle-right"></i></div>
+        </div>
+        <div class="mug f18">
+            <div><a href="https://www.indiatoday.in/sports">
+                    <h3>MORE FROM INDIA</h3>
+                </a></div>
+            <div><i class="fa-solid fa-angle-right"></i></div>
+        </div>
+
     </div>
 </body>
 
